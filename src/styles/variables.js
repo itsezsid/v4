@@ -2,17 +2,17 @@ import { css } from 'styled-components';
 
 const variables = css`
   :root {
-    --dark-navy: #020c1b;
-    --navy: #0a192f;
-    --light-navy: #112240;
-    --lightest-navy: #233554;
+    --dark-navy: #c3aed6;
+    --navy: #efbbcf;
+    --light-navy: #ffd5cd;
+    --lightest-navy: #f7d1ba;
     --navy-shadow: rgba(2, 12, 27, 0.7);
-    --dark-slate: #495670;
-    --slate: #8892b0;
-    --light-slate: #a8b2d1;
-    --lightest-slate: #ccd6f6;
+    --dark-slate: #c3aed6;
+    --slate: #222831;
+    --light-slate: #393e46;
+    --lightest-slate: #0b0b0d;
     --white: #e6f1ff;
-    --green: #64ffda;
+    --green: #185adb;
     --green-tint: rgba(100, 255, 218, 0.1);
 
     --font-sans: 'Calibre', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
