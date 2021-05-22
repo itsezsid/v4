@@ -135,13 +135,12 @@ const About = () => {
           <div>
             <p>
               Hi, I'm Siddharth. I’m a high school senior student at Delhi Public School Bangalore
-              South currently working as a Chief Engineering Officer at Foretag Inc. I contribute to
-              back-end development at Foretag using Crystal, GraphQL, Javascript, etc.
+              South currently contributing at Foretag Inc. I work on back-end development at Foretag
+              using Crystal, GraphQL, Javascript, etc.
             </p>
             <p>
-              I want to integrate technology with our health care system with the help of drones. I
-              love computers, physics, electronics and I want to be an innovator to make this world
-              a better place.
+              I love computers, physics, electronics and I want to be an innovator to make this
+              world a better place.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
