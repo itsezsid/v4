@@ -1,5 +1,5 @@
 ---
-date: '2020-05-1'
+date: '2020-05-01'
 title: 'Chief Engineering Officer'
 company: 'Foretag Inc'
 location: ''
