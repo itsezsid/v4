@@ -12,7 +12,7 @@ const variables = css`
     --light-slate: #393e46;
     --lightest-slate: #0b0b0d;
     --white: #000000;
-    --green: #185adb;
+    --green: #6930c3;
     --green-tint: rgba(24, 90, 219, 0.1);
 
     --font-sans: 'Calibre', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;

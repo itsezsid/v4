@@ -9,4 +9,4 @@ url: 'https://stackshare.io/companies/foretag'
 
 - Working on hardware and software projects.
 - Made an authentication system using Crystal and GraphQL
-- Experience in Kubernetes cluster and Terraform Scripts
+- Experience in Kubernetes and Terraform Scripts
