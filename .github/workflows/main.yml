@@ -16,7 +16,7 @@ jobs:
           npm run build
       - name: "publish"
         run: |
-          npx -p "@getmeli/cli" meli upload ./public \
+          npx -p "@getmeli/cli" meli upload public \
             --url "https://meli.itsezsid.com" \
             --site "$MELI_SITE" \
             --token "$MELI_TOKEN" \
