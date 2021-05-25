@@ -1,7 +1,7 @@
 name: main
 on: [ push ]
 env:
-  MELI_SITE: "5d01db31-7224-48b7-b8c3-a9388d70ed4f1"
+  MELI_SITE: "a67234c9-f81a-47da-a035-1d067c6ea331"
 jobs:
   build:
     runs-on: ubuntu-latest
