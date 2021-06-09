@@ -9,5 +9,4 @@ RUN yarn install
 RUN apk del build-base autoconf automake libtool pkgconf nasm
 COPY . .
 RUN ["yarn", "run", "build" ]
-RUN ["yarn", "run", "serve" ]
-EXPOSE 9000
+CMD ["yarn", "run", "serve" ]
