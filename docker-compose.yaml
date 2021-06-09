@@ -1,7 +1,8 @@
 version: "3"
 services:
-  client:
+  website:
     build:
+      context: ./
       dockerfile: Dockerfile
     ports:
       - "80:80"
