@@ -6,6 +6,7 @@ COPY package.json .
 COPY yarn.lock .
 RUN apk add --update autoconf 
 RUN apk add --update automake 
+RUN apk add --update libtool 
 RUN yarn install
 COPY . .
 RUN ["yarn", "run", "build" ]
