@@ -4,10 +4,9 @@ WORKDIR /app
 
 COPY package.json .
 COPY yarn.lock .
-RUN apk add --update autoconf 
-RUN apk add --update automake 
-RUN apk add --update libtool 
+RUN apk add --update --no-cache build-base autoconf automake libtool pkgconf nasm 
 RUN yarn install
+RUN apk del build-base autoconf automake libtool pkgconf nasm
 COPY . .
 RUN ["yarn", "run", "build" ]
 RUN ["yarn", "run", "serve" ]
