@@ -14,6 +14,6 @@ COPY --chown=node:node --from=build /usr/src/app/node_modules /usr/src/app/node_
 COPY --chown=node:node . /usr/src/app
 CMD ["npm", "run" ,"build"]
 
-FROM nginx
+FROM nginx:alpine
 EXPOSE 80
 COPY --from=builder /app/public /usr/share/nginx/html
