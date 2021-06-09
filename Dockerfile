@@ -6,11 +6,14 @@ RUN apk add --update --no-cache build-base autoconf automake libtool pkgconf nas
 RUN npm ci --only=production
 RUN apk del build-base autoconf automake libtool pkgconf nasm
 # --------------> The production image
-FROM node:alpine 
+FROM node:alpine AS builder
 WORKDIR /usr/src/app
 ENV NODE_ENV production
 USER node
 COPY --chown=node:node --from=build /usr/src/app/node_modules /usr/src/app/node_modules
 COPY --chown=node:node . /usr/src/app
-CMD ["npm", "run" ,"deploy"]
-EXPOSE 9000
+CMD ["npm", "run" ,"build"]
+
+FROM nginx
+EXPOSE 80
+COPY --from=builder /app/public /usr/share/nginx/html

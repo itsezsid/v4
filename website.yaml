@@ -34,18 +34,4 @@ spec:
     image: ghcr.io/itsezsid/website:main
     name: website
     resources: {}
-    securityContext:
-      allowPrivilegeEscalation: true
-      capabilities:
-        drop:
-        - CAP_MKNOD
-        - CAP_NET_RAW
-        - CAP_AUDIT_WRITE
-      privileged: false
-      readOnlyRootFilesystem: false
-      runAsGroup: 1000
-      runAsUser: 1000
-      seLinuxOptions: {}
-    workingDir: /usr/src/app
-  dnsConfig: {}
-status: {}
+    
