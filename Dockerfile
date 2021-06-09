@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY package.json .
 COPY yarn.lock .
-RUN apk install automake 
+RUN apk add automake 
 RUN yarn install
 COPY . .
 RUN ["yarn", "run", "build" ]
