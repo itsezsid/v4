@@ -77,7 +77,7 @@ const Footer = () => {
     if (process.env.NODE_ENV !== 'production') {
       return;
     }
-    fetch('https://api.github.com/repos/itsezsid/website')
+    fetch('https://api.github.com/repos/bchiang7/v4')
       .then(response => response.json())
       .then(json => {
         const { stargazers_count, forks_count } = json;
@@ -109,7 +109,7 @@ const Footer = () => {
           © 2020 - 2021 Siddharth Iyer. All rights reserved.
           <a href="https://github.com/bchiang7/v4"> Inspired by Brittany Chiang </a>
         </div>
-        <a href="https://github.com/bchiang7/v4">
+        <a href="https://github.com/itsezsid/website">
           {githubInfo.stars && githubInfo.forks && (
             <div className="github-stats">
               <span>
