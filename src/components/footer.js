@@ -109,7 +109,7 @@ const Footer = () => {
           © 2020 - 2021 Siddharth Iyer. All rights reserved.
           <a href="https://github.com/bchiang7/v4"> Inspired by Brittany Chiang </a>
         </div>
-        <a href="https://github.com/itsezsid/website">
+        <a href="https://github.com/bchiang7/v4">
           {githubInfo.stars && githubInfo.forks && (
             <div className="github-stats">
               <span>
