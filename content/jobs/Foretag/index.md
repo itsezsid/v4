@@ -1,6 +1,6 @@
 ---
 date: '2020-05-01'
-title: 'Chief Engineering Officer'
+title: 'Chief Technology Officer'
 company: 'Foretag Inc'
 location: ''
 range: 'May 2020 - Present'
