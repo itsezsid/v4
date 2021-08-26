@@ -1,6 +1,6 @@
 ---
 date: '2020-05-01'
-title: 'Software Engineer'
+title: 'Software Developer'
 company: 'Foretag Inc'
 location: ''
 range: 'May 2020 - Present'
