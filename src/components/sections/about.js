@@ -134,9 +134,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hi, I'm Siddharth. I’m a high school senior student at Delhi Public School Bangalore
-              South currently contributing at Foretag Inc. I work on back-end development at Foretag
-              using Crystal, GraphQL, Javascript, etc.
+              Hi, I'm Siddharth, a high school graduate from Delhi Public School Bangalore South currently contributing at Foretag Inc. I work on back-end development at Foretag using Crystal, GraphQL, Javascript, etc.
             </p>
             <p>
               I love computers, physics, electronics and I want to be an innovator to make this
