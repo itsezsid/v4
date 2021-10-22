@@ -64,7 +64,7 @@ const Hero = () => {
   const four = (
     <p>
       I'm a high school graduate from{' '}
-      <a href="https://south.dpsbangalore.edu.in/">Delhi Public School Bangalore South</a> and a
+      <a href="https://south.dpsbangalore.edu.in/">Delhi Public School</a> and a
       full stack developer where I focus on backend development using Crystal, JavaScript , Python
       etc. My interests are in electronics, AI/ML and much more !
     </p>
