@@ -1,10 +1,10 @@
 ---
-date: '2020-05-21'
-title: 'Student'
-company: 'Delhi Public School'
-location: 'Bangalore, IN'
-range: 'May 2016 - July 2021'
-url: 'https://south.dpsbangalore.edu.in/'
+date: '2023-02-27'
+title: 'Bachelor of Engineering (Honours)'
+company: 'Monash University'
+location: 'Melbourne, AU'
+range: 'Feb 2023 - Dec 2026'
+url: 'https://monash.edu'
 ---
 
-- Higher Education [Grade 12] - Science [PCM + Computer Science]
+- Electrical and Computer Systems Engineering
