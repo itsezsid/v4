@@ -6,5 +6,7 @@ location: ''
 range: 'May 2021 - Present'
 url: 'https://route.host'
 ---
-
-- Handling infrastructure and workflow
+ - Managing DevOps environment in staging and production
+ - Writing software in TypeScript and Rust on full stack web application & software. 
+ - Mentoring junior team members and interns 
+ - Actively taking part in decision making process for the company

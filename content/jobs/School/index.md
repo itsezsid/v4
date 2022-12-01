@@ -7,4 +7,5 @@ range: 'Feb 2023 - Dec 2026'
 url: 'https://monash.edu'
 ---
 
-- Electrical and Computer Systems Engineering
+- Major in Electrical and Computer Systems Engineering
+- Minor in Computer Science

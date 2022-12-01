@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript', 'Tensorflow', 'Crystal', 'GraphQL', 'React + Gatsby', 'Python'];
+  const skills = ['JavaScript', 'Tensorflow', 'Rust', 'GraphQL', 'React + Gatsby', 'Python'];
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
       <h2 className="numbered-heading">About Me</h2>
@@ -134,11 +134,10 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hi, I'm Siddharth, a high school graduate from Delhi Public School Bangalore South currently contributing at Foretag Inc. I work on back-end development at Foretag using Crystal, GraphQL, Javascript, etc.
+            Hello there! I'm Siddharth, an incoming undergraduate student at Monash University in Melbourne, Australia.
             </p>
             <p>
-              I love computers, physics, electronics and I want to be an innovator to make this
-              world a better place.
+            I'm incredibly passionate about learning new and exciting stuff, ranging from the latest and upcoming programming languages to quantum mechanics and their applications. My work at Route is about software development on the backend infrastructure and DevOps using service stacks like Kubernetes and Docker and ensuring 100% uptime for all our services. 
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
