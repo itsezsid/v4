@@ -63,7 +63,7 @@ const Hero = () => {
   const three = <h3 className="big-heading">I love building incredible stuff.</h3>;
   const four = (
     <p>
-      I'm an incoming student at{' '}
+      I'm an engineering student at{' '}
       <a href="https://monash.edu/">Monash University</a>, intending to major in Electrical and Computer Systems Engineering and a minor in Computer Science. 
     </p>
   );
