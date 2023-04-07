@@ -134,7 +134,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-            Hello there! I'm Siddharth, an incoming undergraduate student at Monash University in Melbourne, Australia.
+            Hello there! I'm Siddharth, an undergraduate student at Monash University in Melbourne, Australia.
             </p>
             <p>
             I'm incredibly passionate about learning new and exciting stuff, ranging from the latest and upcoming programming languages to quantum mechanics and their applications. My work at Route is about software development on the backend infrastructure and DevOps using service stacks like Kubernetes and Docker and ensuring 100% uptime for all our services. 
