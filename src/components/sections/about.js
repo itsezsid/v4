@@ -134,12 +134,22 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-            Hello there! I'm Siddharth, an undergraduate student at Monash University in Melbourne, Australia.
+              Hi, my name is sid and I'm an undergraduate engineering student at Monash University
+              with 1+ year of experience as a DevOps and Software Engineer at a UK-based startup.
+              I'm passionate about learning and building, and I'm always looking for new challenges.{' '}
             </p>
             <p>
-            I'm incredibly passionate about learning new and exciting stuff, ranging from the latest and upcoming programming languages to quantum mechanics and their applications. My work at Route is about software development on the backend infrastructure and DevOps using service stacks like Kubernetes and Docker and ensuring 100% uptime for all our services. 
+              In my work, I have experience with setting up and managing production-grade clusters
+              on Hetzner servers using Rancher and Terraform. I also have experience with managing
+              virtual machines on Proxmox, setting up self-hosted instances of Gitlab, mail servers,
+              and backups using Storj and Backblaze, and DNS management on Cloudflare.{' '}
             </p>
 
+            <p>
+              I'm also interested in the business industry and finance, with an inclination towards
+              the startup industry. I have shadowed previous management teams to learn about
+              day-to-day work and attended investor meets to learn more about market trends.{' '}
+            </p>
             <p>Here are a few technologies I've been working with recently:</p>
           </div>
 
